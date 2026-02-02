@@ -1,0 +1,84 @@
+/* CSS BY Kadia Astley Harwood */
+/* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+/* CSS RESET */
+/* ROOT VARIABLES */ 
+:root{
+--teal :#4CA7C0;
+--purple: #484FB7;
+--lavender: #6B8FE7;
+--yellow: #E9BB57; 
+--pink:#D9526F;
+--dark-gray:#1E1E1E; 
+--white:#ffffff;
+}
+/* GLOBAL STYLES (mobile first/small) */
+
+h1,h2{
+font-family:Kavoon;
+}
+
+
+h1{
+font-size:3em;
+
+}
+
+h2{
+font-size:2em;
+}
+
+h3{
+font-size:1.5em;   
+}
+
+h4{
+font-size:1.15em;
+}
+
+nav h2{
+font-size:1.5em;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+    width: 100%;
+    background-color:var(--lavender);
+
+}   
+
+grid-container{
+    background-color: var(--purple);
+    width: 100px;
+    margin: 0 auto;
+    display: grid;
+}
+
+head{
+    text-align: center;
+    color: var(--white);
+    
+}
+
+header{
+    background-color: var(--purple);
+    color: var(--white);
+
+}
+
+nav{
+    background-color: var(--yellow);
+    color: var(--white);
+    display:flex;
+    padding: 30px;
+    width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: square;
+
+
+}
