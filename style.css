@@ -31,6 +31,7 @@ color: var(--white);
 h3{
 font-size:1.5em; 
 color: var(--yellow);  
+padding-top: 10px;
 }
 
 h4{
@@ -55,6 +56,8 @@ body{
     background-color:var(--lavender);
     display:block;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 head{
@@ -144,7 +147,6 @@ main{
 
 .services{
     color: var(--white);
-    padding: 20px;
     margin-bottom: 20px;
     border-radius: 6px;
 }
@@ -216,6 +218,7 @@ table{
 td, th{
     padding: 10px;
     text-align: left;
+    border: solid 1px var(--yellow);
 
 }
 
@@ -227,6 +230,7 @@ td{
 .choose-us{
     background-color: var(--pink);
     padding-left: 20px;
+    padding-top: 10px;
     display: inline-block;
     margin-top: 30px;
 }
@@ -238,6 +242,7 @@ td{
     width: 150px;
     height: 70px;
     display: inline-flex;
+    text-align: center;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -278,20 +283,9 @@ td{
 
 .pricing h3{
     color: var(--yellow);
-    margin-top: 20px;
+    
 }
 
-.group{
-
-}
-
-.seminars{
-
-}
-
-.Online{
-   
-}
 
 .first-step{
     text-align: left;
