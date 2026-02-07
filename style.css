@@ -25,60 +25,296 @@ font-size:3em;
 
 h2{
 font-size:2em;
+color: var(--white);
 }
 
 h3{
-font-size:1.5em;   
+font-size:1.5em; 
+color: var(--yellow);  
 }
 
 h4{
 font-size:1.15em;
+color: var(--purple);
 }
 
 nav h2{
 font-size:1.5em;
+ color: var(--dark-gray);
+ text-align: center;
+ font-family: 'Inter', sans-serif;
+
 }
 
-/* GLOBAL STYLES (mobile first/small) */
 
 body{
     font-family: 'Inter', sans-serif;
-    padding: 30px;
-    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 750px;
     background-color:var(--lavender);
-
-}   
-
-grid-container{
-    background-color: var(--purple);
-    width: 100px;
-    margin: 0 auto;
-    display: grid;
+    display:block;
+    align-content: center;
 }
 
 head{
     text-align: center;
     color: var(--white);
-    
 }
 
 header{
     background-color: var(--purple);
     color: var(--white);
-
-}
+    text-align: center;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+} 
 
 nav{
     background-color: var(--yellow);
-    color: var(--white);
-    display:flex;
-    padding: 30px;
-    width: 100%;
+    padding: 20px;
+    text-align: center;  
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav li{
+    text-align: center;
+    color: var(--purple);
+    display:inline-block;
+    max-width: 300px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin: 10px 20px;
 }
 
 nav ul{
+    font-weight: bold;
     text-align: center;
-    list-style-type: square;
+    list-style: none;
+    color: var(--purple);
+    padding: none;
+    margin: 10px 20px;
+}
+
+.serve{
+    background-color: var(--white);
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.why{
+    background-color: var(--white);
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}  
+
+.price{
+    background-color: var(--white);
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.first{
+    background-color: var(--white);
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
 
 
+main{
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: var(--purple);
+}
+
+.services{
+    color: var(--white);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.development{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.career{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.relationship{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+
+.group-coaching{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.focused-sessions{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.workshops{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.online-courses{
+    background-color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+table{
+    width: 100%;
+    color: var(--black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--yellow);
+    
+}
+
+
+td, th{
+    padding: 10px;
+    text-align: left;
+
+}
+
+td{
+    background-color: var(--white);
+}
+
+
+.choose-us{
+    background-color: var(--pink);
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.choose-us li{
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    width: 150px;
+    height: 70px;
+    display: inline-flex;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Approach{
+   background-color: var(--teal);
+   padding: 40px 20px;
+   color: var(--white);
+   border-radius: 20px;
+   text-align: center;
+}
+
+.Results{
+    background-color: var(--lavender);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Environment{
+    background-color: var(--yellow);
+    color: var(--dark-gray);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Options{
+    background-color: var(--white);
+    color: var(--dark-gray);
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+.pricing{
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.pricing h3{
+    color: var(--yellow);
+    margin-top: 20px;
+}
+
+.group{
+
+}
+
+.seminars{
+
+}
+
+.Online{
+   
+}
+
+.first-step{
+    text-align: left;
+    color: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    background-color: var(--pink);
+}   
+
+.first-step a{
+    background-color: var(--white);
+    color: black;
+    display: block;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer{
+    font-size: 12px;
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
 }
